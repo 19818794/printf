@@ -45,5 +45,6 @@ int _strlen(char *s);
 int printf_string(va_list val);
 int printf_37(void);
 int printf_dec_int(va_list val);
+int printf_bin(va_list val);
 
 #endif

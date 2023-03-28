@@ -38,6 +38,7 @@ All of the following files are programs written in C:
 | `_putchar.c`       | writes a character to stdout.
 | `main.h`           | header file includes libraries, structures, and the prototypes of all functions used for this  project.
 | `printf_dec_int.c` | prints an integer or decimal number and returns its length.
+| `printf_bin.c`     | prints a binary representation for an unsigned integer and returns its length.
 
 # Specifiers
 
@@ -48,6 +49,7 @@ All of the following files are programs written in C:
 | `%`       | character `%`.
 | `d`       | decimal number.
 | `i`       | integer.
+| `b`       | binary.
 
 # Authors
 
