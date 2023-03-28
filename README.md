@@ -39,7 +39,10 @@ All of the following files are programs written in C:
 | `main.h`           | header file includes libraries, structures, and the prototypes of all functions used for this  project.
 | `printf_dec_int.c` | prints an integer or decimal number and returns its length.
 | `printf_bin.c`     | prints a binary representation for an unsigned integer and returns its length.
-
+| `printf_unsigned.c`| prints the returned unsigned data type.
+| `printf_oct.c`     | a function that prints or returns octal number.
+| `printf_hex.c`     | recalls hexadecimal numbers.
+| `printf_HEX.c`     | recalls hexadecimal numbers (Uppercase).
 # Specifiers
 
 | Specifier | Description
@@ -50,7 +53,10 @@ All of the following files are programs written in C:
 | `d`       | decimal number.
 | `i`       | integer.
 | `b`       | binary.
-
+| `u`       | unsigned.
+| `o`       | octal.
+| `x`       | hexadecimal.
+| `X`       | hexadecimal(uppercase).
 # Authors
 
 19818794
