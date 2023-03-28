@@ -11,7 +11,8 @@ int _printf(const char *format, ...)
 	va_list args; /* To hold the variable arguments */
 	int i, j, length;
 	fmt_t fmt[] = {
-		{"%c", printf_char}, {"%s", printf_string}, {"%%", printf_37}
+		{"%c", printf_char}, {"%s", printf_string}, {"%%", printf_37},
+		{"%d", printf_dec_int}, {"%i", printf_dec_int}
 	};/*Array of conversion specifiers and their corresponding functions*/
 
 	va_start(args, format); /*Initialize args with format arguments*/
@@ -22,7 +23,7 @@ int _printf(const char *format, ...)
 Here:
 	while (format[i] != '\0')
 	{
-		j = 2; /* Number of conversion specifiers - 1 */
+		j = 4; /* Number of conversion specifiers - 1 */
 		/**
 		 * Call the corresponding function for the conversion specifier
 		 * and  add the return value to the length.
