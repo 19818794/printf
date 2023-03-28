@@ -43,7 +43,8 @@ All of the following files are programs written in C:
 | `printf_oct.c`     | a function that prints or returns octal number.
 | `printf_hex.c`     | recalls hexadecimal numbers.
 | `printf_HEX.c`     | recalls hexadecimal numbers (Uppercase).
-| `printf_exclusive_string.c`| String with hex-ascii value replaces special chars                  
+| `printf_exclusive_string.c`| String with hex-ascii value replaces special chars.
+| `printf_pointer.c` | prints the pointer address.                   
 # Specifiers
 
 | Specifier | Description
@@ -59,6 +60,7 @@ All of the following files are programs written in C:
 | `x`       | hexadecimal.
 | `X`       | hexadecimal(uppercase).
 | `S`       | special chars
+| `p`       | pointer address
 # Authors
 
 19818794
